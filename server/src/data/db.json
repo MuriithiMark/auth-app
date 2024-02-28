@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "f2a4acc3-417b-47ff-90a0-2e4af3bdb86f",
+      "email": "mark_mwangi@gmail.com",
+      "username": "mark_mwangi",
+      "hashedPassword": "$2b$08$DHIpjUwXVrM/U1jwNA/SNeRq.kvuMeRTIyGtdZjKQMRDxAv43UgyW"
+    },
+    {
+      "id": "d7cc9bb1-a16b-4a79-9e24-98e3ac8870d1",
+      "email": "markmwangi14317@gmail.com",
+      "username": "snider",
+      "hashedPassword": "$2b$08$HL/8lOBtTd5kfMKdVCXiY.SnAlyPTC7868ozyzPTXXJ/rg69vgE3K"
+    },
+    {
+      "id": "b4e6d636-34b7-41e8-acb3-649e201604d8",
+      "email": "nelly_mumbi@gmail.com",
+      "username": "nelly",
+      "hashedPassword": "$2b$08$vMmINtUgVMISlu13sHsnRecrVIazHUyRx8ko61M.VDgRFTm3ekOfe"
+    },
+    {
+      "id": "be2d64b8-e11b-44a4-a1d9-ea42827110fa",
+      "email": "stevekahome@gmail.com",
+      "username": "steve",
+      "hashedPassword": "$2b$08$ExlCWLi1k1oM1c2IFqwLCejyPjjwTAqN7rwJegfhHF8VVcS2Y6gPm"
+    }
+  ]
+}

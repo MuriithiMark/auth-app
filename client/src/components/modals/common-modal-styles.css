@@ -1,0 +1,29 @@
+form {
+    padding: 4em;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5em;
+
+    background: linear-gradient(to bottom right, rgb(147, 147, 245), white);
+
+    border: .1em solid black;
+    border-radius: 2em;
+}
+
+.alternative-actions {
+    cursor: pointer;
+
+}
+
+
+button {
+    width: 60%;
+    height: 2em;
+    margin: auto;
+}
+
+.text {
+    text-align: center;
+}

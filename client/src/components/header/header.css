@@ -1,0 +1,30 @@
+header {
+    width: 100%;
+    height: 6em;
+    /* border: .1em solid black; */
+    padding: 1em;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.accounts {
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.accounts-btn {
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+
+    width: 100%;
+    height: 100%;
+}
