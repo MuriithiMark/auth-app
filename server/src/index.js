@@ -1,6 +1,7 @@
 import express from "express"
 import cors from "cors";
 import cookieParser from "cookie-parser";
+import session from "express-session"
 
 import authRouter from "./routes/authRouter.js";
 import userRouter from "./routes/userRouter.js";
@@ -23,7 +24,14 @@ app.use((req, res, next) => {
 app.use(cors(corsOptions))
 app.use(express.json())
 app.use(cookieParser())
-
+app.use(session({
+    secret: "su8s8w8wwjjw",
+    cookie: {
+        httpOnly: true,
+        maxAge: 60 * 60 * 1000,
+        domain: "http://localhost:5173"
+    }
+}))
 app.use("/auth", authRouter)
 app.use("/users", protectedRoute, userRouter)
 

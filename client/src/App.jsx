@@ -15,15 +15,11 @@ export default function App() {
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
 
   useEffect(() => {
-    const existingToken = cookies.get("auth_token");
-    if (!existingToken) {
-      return;
-    }
-    // verify that token is valid
     fetch("http://localhost:3000/auth/verify-token", {
       credentials: "include",
     }).then(async (response) => {
       const responseData = await response.json();
+      console.log('Data: ', responseData)
       if (responseData.status === "fail") {
         return;
       }

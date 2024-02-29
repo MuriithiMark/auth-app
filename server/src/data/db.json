@@ -1,28 +1,22 @@
 {
   "users": [
     {
-      "id": "f2a4acc3-417b-47ff-90a0-2e4af3bdb86f",
-      "email": "mark_mwangi@gmail.com",
-      "username": "mark_mwangi",
-      "hashedPassword": "$2b$08$DHIpjUwXVrM/U1jwNA/SNeRq.kvuMeRTIyGtdZjKQMRDxAv43UgyW"
-    },
-    {
-      "id": "d7cc9bb1-a16b-4a79-9e24-98e3ac8870d1",
+      "id": "86d1d88a-0fa4-4ac4-961b-a74c50947daf",
       "email": "markmwangi14317@gmail.com",
-      "username": "snider",
-      "hashedPassword": "$2b$08$HL/8lOBtTd5kfMKdVCXiY.SnAlyPTC7868ozyzPTXXJ/rg69vgE3K"
+      "username": "mark",
+      "hashedPassword": "$2b$08$PsS3N4Dy2guDVsjeUqOGZeHs5eFO63bYc2/jUedcEiHibW59s9aV2"
     },
     {
-      "id": "b4e6d636-34b7-41e8-acb3-649e201604d8",
-      "email": "nelly_mumbi@gmail.com",
-      "username": "nelly",
-      "hashedPassword": "$2b$08$vMmINtUgVMISlu13sHsnRecrVIazHUyRx8ko61M.VDgRFTm3ekOfe"
-    },
-    {
-      "id": "be2d64b8-e11b-44a4-a1d9-ea42827110fa",
+      "id": "17c987ef-4b95-4d2f-a1d8-e107af353c87",
       "email": "stevekahome@gmail.com",
       "username": "steve",
-      "hashedPassword": "$2b$08$ExlCWLi1k1oM1c2IFqwLCejyPjjwTAqN7rwJegfhHF8VVcS2Y6gPm"
+      "hashedPassword": "$2b$08$QtcCr/L0T65RnSPzWncM1u5JIBmcNJudDkCkoXn90HaRS31525V9u"
+    },
+    {
+      "id": "8245e5a0-b0b2-4136-bcbf-84f45d161217",
+      "email": "dennis_muhindi@gmail.com",
+      "username": "dennis",
+      "hashedPassword": "$2b$08$zE2y2us4Qncz4FQFbQyJouJRoj/zpBT83H5AnMBq5IIGcDYaU5uXS"
     }
   ]
 }

@@ -6,6 +6,7 @@ import {
   toggleRegisterModal,
 } from "../../features/modal/modalSlice";
 import PersonCircle from "../icons/PersonCircle";
+import HouseIcon from "../icons/HouseIcon";
 
 const Header = () => {
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
@@ -24,7 +25,9 @@ const Header = () => {
   return (
     <header>
       <span>
-        <a href="/">Home</a>
+        <a href="/">
+          <HouseIcon width={40} height={40} color={'black'} />
+        </a>
       </span>
       <nav></nav>
       <div className="accounts">

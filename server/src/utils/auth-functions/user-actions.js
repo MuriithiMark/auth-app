@@ -3,11 +3,6 @@ import { getDB, updateDB } from "../db/db-methods.js";
 import { comparePassword, hashPassword } from "./password-utils.js";
 import { generateToken } from "./token-actions.js";
 
-const findUser = async ({ by, value }) => {
-    const db = await getDB()
-    return db.users.find((user) => user[by] === value)
-}
-
 const registerUser = async (userData) => {
     const db = await getDB()
     const existingUser = db.users.find(
@@ -46,7 +41,14 @@ const loginUser = async (loginData) => {
     }
 }
 
+const getUser = async ({ by, value}) => {
+    const db = await getDB();
+    const user = db.users.find((user) => user[by] === value);
+    return user
+}
+
 export {
     registerUser,
-    loginUser
+    loginUser,
+    getUser
 }
