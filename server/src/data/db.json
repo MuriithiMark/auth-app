@@ -17,6 +17,12 @@
       "email": "dennis_muhindi@gmail.com",
       "username": "dennis",
       "hashedPassword": "$2b$08$zE2y2us4Qncz4FQFbQyJouJRoj/zpBT83H5AnMBq5IIGcDYaU5uXS"
+    },
+    {
+      "id": "1de0ebf3-a868-400d-8d64-098553038717",
+      "email": "alimagoti@gmal.com",
+      "username": "ali254",
+      "hashedPassword": "$2b$08$45VAxDt2SuaFHflgRPr.qO0MujoLhg9IXAWD/2OuZhHe7ZLoXP8je"
     }
   ]
 }
